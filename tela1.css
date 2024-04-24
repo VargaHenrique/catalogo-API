@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.Logo {
+    display: flex;
+    color: black;
+    padding-left: 2%;
+    align-items: center;
+}
+
+.contato{
+    padding-right: 4%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+#gallery {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+
+}
+
+#gallery img {
+    width: 260px;
+    height: 300px;
+    margin-top: 6%;
+    cursor: pointer;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+
+
+.header-banner {
+    font-family: FuturaPT, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000;
+    line-height: 1.5rem;
+    padding: 7px 0;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+
+.container-line {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*OVELAY*/
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    max-width: 50%;
+    max-height: 100%;
+  }
+  
+  
+  .options {
+    display:flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 5px;
+    height: 25px;
+    
+  }
+
+.adicao{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+}
+  
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    cursor: pointer;
+  }
+
+  #descricao-View{
+  display: flex;
+  
+
+  }
+
+
+@media screen and (max-width: 480px) {
+    .box {
+        width: 100%;
+    }
+}

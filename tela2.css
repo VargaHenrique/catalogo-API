@@ -1,0 +1,22 @@
+html{
+    height: 100%;
+
+    margin: 0;
+    background-color: azure;
+    
+}
+
+
+
+
+.topnav {
+    display: flex;
+    padding-left: 6%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.opcoes-container{
+    background-color: white;
+    
+}

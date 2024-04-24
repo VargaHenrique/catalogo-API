@@ -1,0 +1,133 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Catalogo de imagens API",
+    "version": "1.0.0",
+    "description": "API's"
+  },
+  "paths": {
+    "/Imagens": {
+      "get": {
+        "summary": "Obter a lista de instruementos",
+        "responses": {
+          "200": {
+            "description": "Lista de instrumentos retornada com sucesso"
+            
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar um novo instruemento",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Instrumento criado com sucesso"
+          },
+          "400": {
+            "description": "Dados inválidos fornecidos"
+          }
+        }
+      }
+    },
+    "/Imagens/{id}": {
+      "get": {
+        "summary": "Obter informações de uma imagem pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Informações do instrumento retornados com sucesso"
+          },
+          "404": {
+            "description": "Instrumento não encontrado"
+          }
+        }
+      },
+      "put": {
+        "summary": "Atualizar informações de um instrumento pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Informações do instrumento atualizadas com sucesso"
+          },
+          "404": {
+            "description": "instrumento não encontrado"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Excluir um instrumento pelo ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "instrumento excluído com sucesso"
+          },
+          "404": {
+            "description": "instrumento não encontrado"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Usuario": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Imagens": [
+    {
+      "id": 2,
+      "titulo": "T-805",
+      "url": "http://www.tagima.com.br/uploads/produtos/T_805_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE BRAZIL"
+    },
+    {
+      "id": 3,
+      "titulo": "TG-500",
+      "url": "http://www.tagima.com.br/uploads/produtos/tg500g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE TW"
+    },
+    {
+      "id": 4,
+      "titulo": "STELLA H2",
+      "url": "http://www.tagima.com.br/uploads/produtos/stella_h2_g1.jpg",
+      "descricao": "Guitarra com uma boa pegada ",
+      "serie": "Tagima"
+    },
+    {
+      "id": 5,
+      "titulo": "MG-30",
+      "url": "http://www.tagima.com.br/uploads/produtos/mg30_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE MEMPHIS"
+    },
+    {
+      "id": 6,
+      "titulo": "MIRACH",
+      "url": "http://www.tagima.com.br/uploads/produtos/MIRACH_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE CLASSIC "
+    },
+    {
+      "id": 7,
+      "titulo": "TW-55",
+      "url": "http://www.tagima.com.br/uploads/produtos/TW-55_BS_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE TW "
+    },
+    {
+      "id": 8,
+      "titulo": "E-2",
+      "url": "http://www.tagima.com.br/uploads/produtos/e2_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE SIGNATURE"
+    },
+    {
+      "id": 9,
+      "titulo": "SÉRIE CLASSIC | MIRACH FL",
+      "url": "http://www.tagima.com.br/uploads/produtos/MIRACH-FL_g1.jpg",
+      "descricao": "Tagima",
+      "serie": "SÉRIE SIGNATURE "
+    },
+    {
+      "id": 10,
+      "titulo": "American Professional II Stratocaster®",
+      "url": "https://rudysmusic.com/cdn/shop/products/p-209_1781x1781.jpg?v=1673025864",
+      "descricao": "Fender",
+      "serie": "Stratocaster"
+    },
+    {
+      "id": 11,
+      "titulo": "AMERICAN VINTAGE II 1973 STRATOCASTERr®",
+      "url": "https://cdn11.bigcommerce.com/s-8wy6p2/images/stencil/2000x2000/products/14389/145246/fender-american-vintage-ii-73-stratocaster-aged-natural__04090.1665551993.jpg?c=2",
+      "descricao": "Fender",
+      "serie": "Stratocaster"
+    },
+    {
+      "id": 14,
+      "titulo": "AMERICAN VINTAGE II 1961 STRATOCASTER®",
+      "url": "https://cdn.shoplightspeed.com/shops/608329/files/61326367/650x750x2/fender-american-vintage-ii-1961-stratocaster-rosew.jpg",
+      "descricao": "Fender",
+      "serie": "Stratocaster"
+    },
+    {
+      "id": 15,
+      "titulo": "AAAAAAAAA",
+      "url": "https://images-americanas.b2w.io/produtos/10523655/imagens/guitarra-yamaha-rgx220dz-red-metallic-com-24-trastes-ponte-double-locking-tremolo/10523662_2_large.jpg",
+      "descricao": "AAAAAAAA",
+      "serie": "A"
+    }
+  ]
+}
